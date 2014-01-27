@@ -32,8 +32,8 @@ esac
 
 case "$1" in
 "imx6_som"|"fm")
-	GITREPO=${GITREPO:­"https://github.com/jvidalsm/b2g­manifest.git"}
-	BRANCH=${BRANCH:­freescale}
+	GITREPO=${GITREPO:­-"https://github.com/jvidalsm/b2g­-manifest.git"}
+	BRANCH=${BRANCH:­-freescale}
 	;;
 *)
 	GITREPO=${GITREPO:-"git://github.com/mozilla-b2g/b2g-manifest"}
